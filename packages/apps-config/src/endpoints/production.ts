@@ -24,6 +24,13 @@ export const prodChains: EndpointOption[] = [
     }
   },
   {
+    info: 'Ares Odyssey',
+    text: 'Ares Odyssey',
+    providers: {
+      'Ares Protocol': 'wss://odyssey.aresprotocol.io'
+    }
+  },
+  {
     info: 'automata',
     text: 'Automata',
     providers: {
@@ -105,7 +112,8 @@ export const prodChains: EndpointOption[] = [
     text: 'Edgeware',
     providers: {
       'Commonwealth Labs': 'wss://mainnet.edgewa.re',
-      OnFinality: 'wss://edgeware.api.onfinality.io/public-ws'
+      OnFinality: 'wss://edgeware.api.onfinality.io/public-ws',
+      Dwellir: 'wss://edgeware-rpc.dwellir.com'
     }
   },
   {
@@ -137,15 +145,6 @@ export const prodChains: EndpointOption[] = [
     text: 'Hanonycash',
     providers: {
       Hanonycash: 'wss://rpc.hanonycash.com'
-    }
-  },
-  {
-    info: 'snakenet',
-    text: 'HydraDX',
-    providers: {
-      HydraDX: 'wss://rpc-01.snakenet.hydradx.io',
-      'Galactic Council': 'wss://rpc-02.snakenet.hydradx.io',
-      Archives: 'wss://archive.snakenet.hydradx.io'
     }
   },
   {
@@ -187,6 +186,13 @@ export const prodChains: EndpointOption[] = [
     }
   },
   {
+    info: 'myriad',
+    text: 'Myriad',
+    providers: {
+      Myriad: 'wss://ws-rpc.myriad.social'
+    }
+  },
+  {
     info: 'neatcoin',
     text: 'Neatcoin',
     providers: {
@@ -209,19 +215,11 @@ export const prodChains: EndpointOption[] = [
     }
   },
   {
-    info: 'plasm',
-    text: 'Plasm',
-    providers: {
-      'Stake Technologies': 'wss://rpc.plasmnet.io/'
-    }
-  },
-  {
     info: 'polkadex',
     text: 'Polkadex',
     providers: {
       'Polkadex Team': 'wss://mainnet.polkadex.trade',
-      OnFinality: 'wss://polkadex.api.onfinality.io/public-ws',
-      Pinknode: 'wss://public-rpc.pinknode.io/polkadex'
+      OnFinality: 'wss://polkadex.api.onfinality.io/public-ws'
     }
   },
   {
